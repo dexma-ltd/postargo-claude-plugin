@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "postargo": {
+      "type": "http",
+      "url": "https://mcp.postargo.ai/mcp"
+    }
+  }
+}

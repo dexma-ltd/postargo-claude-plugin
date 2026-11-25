@@ -1,0 +1,14 @@
+{
+  "name": "postargo",
+  "displayName": "PostArgo",
+  "version": "0.0.1",
+  "description": "Publish and schedule your social media posts from the chat.",
+  "author": {
+    "name": "DEXMA LTD",
+    "email": "hello@postargo.ai"
+  },
+  "homepage": "https://postargo.ai",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://postargo.ai/privacy/",
+  "termsOfServiceUrl": "https://postargo.ai/terms/"
+}
