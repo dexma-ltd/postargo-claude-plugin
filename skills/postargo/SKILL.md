@@ -14,9 +14,9 @@ Where you work decides what you use:
 
 ## Connect
 
-PostArgo is connected once, in the chat app's own connection settings for this plugin: the app opens the PostArgo sign-in page, and signing in and approving there completes it. No key is pasted into the chat. Social accounts are connected in the PostArgo web app, at https://app.postargo.ai.
+PostArgo is connected once, in the chat app's own connection settings for this plugin: the app opens PostArgo in the browser, where the customer signs in, picks the workspace and chooses what this chat may do: see the accounts, see the posts, create and manage posts, upload media. No key is pasted into the chat. `show_connection` tells which workspace and which of these this chat has. The customer ends the connection in the PostArgo web app, under Profile, "Connected apps". Social accounts are connected in the PostArgo web app, at https://app.postargo.ai.
 
-If a tool answers that sign-in is needed, ask the customer to connect PostArgo first.
+If a tool answers that sign-in is needed, ask the customer to connect PostArgo first. If it answers that a permission is missing, the customer did not allow it: they connect PostArgo again and tick it.
 
 In Claude and Cowork the connection is on the plugin's Connectors tab. In Claude Code, `/mcp` shows it.
 
